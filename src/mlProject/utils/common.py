@@ -96,7 +96,7 @@ def load_bin(path: Path) -> Any:
     return data
 
 @ensure_annotations
-def get_sixe(path: Path) -> str:
+def get_size(path: Path) -> str:
     """get size in KB
     Args:
         path(Path): path of the file
