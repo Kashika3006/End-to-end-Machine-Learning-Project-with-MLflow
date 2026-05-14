@@ -1,5 +1,21 @@
 # End-to-end-Machine-Learning-Project-with-MLflow
 
+This is a complete **end-to-end Machine Learning project** that predicts wine quality using multiple physicochemical features.
+
+It includes:
+- Modular ML pipeline
+- MLflow experiment tracking
+- Flask web application
+- End-to-end deployment on Render
+
+---
+
+# 🚀 Live Demo
+
+👉 https://end-to-end-machine-learning-project-with-sq7s.onrender.com/
+
+---
+
 ## Workflows
 
 1. Update config.yaml
@@ -26,7 +42,7 @@ https://github.com/Kashika3006/End-to-end-Machine-Learning-Project-with-MLflow
 ### STEP 01- Create a conda environment after opening the repository
 
 '''bash
-conda create -m mlproj python=3.8 -y
+conda create -m mlproj python=3.10 -y
 '''
 '''bash
 conda activate mlproj
@@ -44,7 +60,7 @@ python app.py
 
 Now,
 '''bash
-open up ypur local host and port
+open up your local host and port
 '''
 
 ## MLflow
@@ -53,6 +69,10 @@ open up ypur local host and port
 
 ##### cmd
 - mlfow ui
+- 
+# 🌐 DagsHub Integration
+
+This project logs ML experiments to DagsHub.
 
 ### dagshub
 [dagshub](https://dagshub.com/)
@@ -73,5 +93,44 @@ export
 MLFLOW_TRACKING_PASSWORD=90f0b537d19fa66b88a76f733599d7dcee7080e9
 
 '''
+#  Tech Stack
+
+- Python 🐍  
+- Scikit-learn 🤖  
+- Pandas / NumPy 📊  
+- MLflow 📈  
+- Flask 🌐  
+- HTML / CSS  
+- Render ☁️
+
+# 📁 Project Structure
+
+```
+├── app.py
+├── main.py
+├── requirements.txt
+├── src/
+│   ├── mlProject/
+│   │   ├── components/
+│   │   ├── pipeline/
+│   │   └── config/
+├── artifacts/
+├── templates/
+├── static/
+```
+
+---
+# 🔥 Key Features
+
+- End-to-end ML pipeline  
+- Modular code structure  
+- MLflow experiment tracking  
+- Flask web interface  
+- Cloud deployment using Render  
+- Real-time predictions  
+
+---
+
+
 
 
