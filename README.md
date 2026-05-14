@@ -35,33 +35,33 @@ It includes:
 
 Clone the repository
 
-'''bash
+```bash
 https://github.com/Kashika3006/End-to-end-Machine-Learning-Project-with-MLflow
-'''
+```
 
 ### STEP 01- Create a conda environment after opening the repository
 
-'''bash
+```bash
 conda create -m mlproj python=3.10 -y
-'''
-'''bash
+```
+```bash
 conda activate mlproj
-'''
+```
 
 ### STEP 02- Install the requirements
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
-'''bash
+```bash
 # Finally run the following command
 python app.py
-'''
+```
 
 Now,
-'''bash
+```bash
 open up your local host and port
-'''
+```
 
 ## MLflow
 
@@ -83,7 +83,7 @@ MLFLOW_TRACKING_PASSWORD=90f0b537d19fa66b88a76f733599d7dcee7080e9 \
 
 Run this to export as env variables:
 
-'''bash
+```bash
 
 export MLFLOW_TRACKING_URI=https://dagshub.com/Kashika3006/End-to-end-Machine-Learning-Project-with-MLflow.mlflow 
 
@@ -92,7 +92,7 @@ export MLFLOW_TRACKING_USERNAME=Kashika3006
 export 
 MLFLOW_TRACKING_PASSWORD=90f0b537d19fa66b88a76f733599d7dcee7080e9
 
-'''
+```
 #  Tech Stack
 
 - Python 🐍  
