@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/divya/OneDrive/Documents/KashikaStudyMaterial/End-to-end-Machine-Learning-Project-with-MLflow/mlruns/0/models/m-0236f2c7d2384490874002c087d62308/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-0236f2c7d2384490874002c087d62308
+model_size_bytes: 913
+model_uuid: m-0236f2c7d2384490874002c087d62308
+prompts: null
+run_id: e67310233bfa44e19be39f9a525cd324
+utc_time_created: '2026-05-14 05:29:10.948300'
